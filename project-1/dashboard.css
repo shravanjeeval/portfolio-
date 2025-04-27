@@ -1,0 +1,240 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+  
+}
+.dashboard{
+    display: flex;
+}
+.sidbar{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(4, 67, 240);
+    color: rgb(255, 255, 255);
+    width: 230px;
+    height: 100vh;
+    margin-left: ;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.profile h1{
+    font-size:larger;
+    font-family: sans-serif;
+     padding-left: 30px;
+     margin-top: 15px;
+   text-shadow: 2px 2px 16px rgb(0, 76, 255);
+   color: rgb(255, 255, 255);
+    
+
+}
+
+.profile p{
+    font-weight: 700;
+    font-size:small;
+    margin-bottom : 10px;
+    margin-left: 15px;
+   padding-left: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 16px rgb(0, 26, 255);
+    
+}
+
+
+.nav-Menu a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: aliceblue;
+    line-height: 4;
+    text-shadow: 2px 2px 16px rgb(0, 38, 255);
+
+}
+.nav-Menu a:hover{
+    text-shadow: 2px 2px 20px rgb(76, 0, 255);
+   color: rgb(5, 5, 5);
+   transition: 1s ease;
+}
+.main-content{
+    padding: 10px;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+     gab:60px;
+    align-items: center;
+   /* margin-bottom: 35px;*/
+
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    width: 400px;
+    margin-left: 200px;
+
+
+}
+.search-bar{
+    display: flex;
+   
+
+}
+
+.logo{
+    border-radius: 50%;
+    width: 36px;
+    gap:1px;
+}
+.search-bar input{
+    width: 200px;
+    padding: 10px 10px;
+
+    border-radius: 80px;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+.search-bar img{
+    height: 30px;
+    width: 30px;
+    gap: 1px;
+}
+.search-btn img{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.search-bar{
+    margin-left: 350px;
+}
+
+.search-btn:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 10px 10px rgb(200, 131, 200);
+    cursor: pointer;
+    transform: translate(5px);
+
+}
+
+.stats{
+    flex-direction: row;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+   border-radius: 20px;
+   transition: 0.3sec;
+   margin-left: 80px;
+   gap: 40px;
+   margin-top: 10px;
+ 
+
+}
+.stats-card:hover{
+    transition: 0.2s ease;
+    box-shadow: 2px 2px 12px 12px rgb(115, 115, 202) ;
+    text-shadow: 2px 2px 10px rgb(45, 45, 180);
+    background-color: rgb(255, 255, 255);
+}
+.stats-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+   width: 250px;
+
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    transform: translateY(5px);
+
+    
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+.skills{
+    border: 1px solid rgb(162, 162, 162);
+    border-radius: 10px;
+   margin-top: 30px;
+   padding: 10px;
+   color: aliceblue;
+   background-color: rgb(150, 154, 187);
+
+}
+.progress{
+    width: 1200px;
+    margin: 7px;
+
+
+}
+.skills:hover{
+    box-shadow: 2px 2px 10px 10px rgb(85, 85, 221);
+}
+
+.card::first-letter{
+    color: rgb(19, 15, 10);
+}
+.card{
+    width: 200px;
+    border: 1px solid hsl(248, 42%, 83%);
+    background-color: rgb(225, 230, 230);
+    color: rgb(15, 56, 98);
+    margin-left: 30px;
+    padding: 20px ;
+    border-radius: 12px;
+    border-radius: 2%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 350px;
+ 
+  
+
+   
+}
+.main-card{
+    display: flex;
+    flex-direction: row;
+
+}
+.recent-project{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px ;
+    background-color: rgb(255, 255, 255);
+}
+.recent-project h3{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.card:hover{
+    background-color: rgb(19, 18, 18);
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 12px 12px rgb(0, 0, 0);
+    border: 2px solid snow;
+    border: 1px solid black;
+   
+}
+.button:hover{
+    border-radius: 11%;
+    background-color: rgb(255, 255, 255);
+}
+.button{
+    background-color: rgb(213, 214, 217);
+    border-color: aliceblue;
+}
+.card .button{
+    border-radius: 10px;
+}
+.card #Completed{
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: 1px solid white;
+  
+}
